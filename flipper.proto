@@ -51,6 +51,8 @@ enum CommandStatus {
     /**< GPS Errors */
     ERROR_GPS_NOT_SUPPORTED = 60; /**< Companion device has no location capability */
     ERROR_GPS_NO_PERMISSION = 61; /**< Location permission not granted on companion device */
+    ERROR_GPS_DISABLED = 62; /**< Location services are disabled on companion device */
+    ERROR_GPS_UNKNOWN = 63; /**< Unknown location error on companion device */
 }
 
 /* There are Server commands (e.g. Storage_write), which have no body message
